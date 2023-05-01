@@ -219,7 +219,7 @@ p {
 .active.primary-btn,
 .primary-btn:hover,
 .primary-btn:focus {
-    background: var(--primary-dark);
+    background: var(--darker);
     color: var(--white);
     box-shadow: var(--shadow-4)
 }
@@ -238,7 +238,7 @@ p {
 .active.primary-btn-outline,
 .primary-btn-outline:hover,
 .primary-btn-outline:focus {
-    background: var(--primary-dark);
+    background: var(--darker);
     color: var(--white)
 }
 
@@ -1029,7 +1029,7 @@ p {
 }
 
 .portfolio-style-three .portfolio-image .portfolio-icon a:hover {
-    background-color: var(--primary-dark)
+    background-color: var(--darker)
 }
 
 .portfolio-style-three .portfolio-text {
@@ -1073,7 +1073,7 @@ p {
 .pricing-style-fifteen .active.primary-btn,
 .pricing-style-fifteen .primary-btn:hover,
 .pricing-style-fifteen .primary-btn:focus {
-    background: var(--primary-dark);
+    background: var(--darker);
     color: var(--white);
     box-shadow: var(--shadow-4)
 }
@@ -1093,7 +1093,7 @@ p {
 .pricing-style-fourteen .active.primary-btn,
 .pricing-style-fourteen .primary-btn:hover,
 .pricing-style-fourteen .primary-btn:focus {
-    background: var(--primary-dark);
+    background: var(--darker);
     color: var(--white);
     box-shadow: var(--shadow-4)
 }
@@ -1112,7 +1112,7 @@ p {
 .pricing-style-fourteen .active.primary-btn-outline,
 .pricing-style-fourteen .primary-btn-outline:hover,
 .pricing-style-fourteen .primary-btn-outline:focus {
-    background: var(--primary-dark);
+    background: var(--darker);
     color: var(--white)
 }
 
@@ -1446,7 +1446,7 @@ p {
 .call-action {
     z-index: 2;
     padding: 100px 0;
-    background: linear-gradient(45deg, var(--primary), var(--primary-dark));
+    background: linear-gradient(45deg, var(--primary), var(--darker));
     position: relative
 }
 
@@ -1791,7 +1791,7 @@ p {
 .contact-form-wrapper .contact-form .active.primary-btn,
 .contact-form-wrapper .contact-form .primary-btn:hover,
 .contact-form-wrapper .contact-form .primary-btn:focus {
-    background: var(--primary-dark);
+    background: var(--darker);
     color: var(--white);
     box-shadow: var(--shadow-4)
 }
@@ -2061,7 +2061,7 @@ p {
 }
 
 .footer-eleven .f-about .copyright-text a:hover {
-    color: var(--primary-dark)
+    color: var(--darker)
 }
 
 .footer-eleven .f-link li {
@@ -2142,5 +2142,5 @@ only screen and (min-width:1400px) {
 
 .footer-eleven .newsletter-form .sub-btn:hover {
     color: var(--white);
-    background-color: var(--primary-dark)
+    background-color: var(--darker)
 }

@@ -7,7 +7,7 @@
 .header-eight .active.primary-btn,
 .header-eight .primary-btn:hover,
 .header-eight .primary-btn:focus {
-    background: var(--primary);
+    background: var(--darker);
     color: var(--white);
     box-shadow: var(--shadow-4)
 }
@@ -20,8 +20,8 @@
 
 .header-eight {
     position: relative;
-    padding: 100px 0 100px;
-    background: var(--gradient-1)
+    padding: 160px 0 100px;
+    background: var(--primary)
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -36,15 +36,9 @@
     }
 }
 
-
-.header-eight .header-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .header-eight .header-image img {
-    width: 60%;
-    /* border-radius: 8px */
+    width: 100%;
+    border-radius: 8px
 }
 
 @media only screen and (min-width:768px) and (max-width:991px),
@@ -63,7 +57,7 @@
 
 .header-eight .header-content h1 {
     font-weight: 700;
-    color: var(--darker);
+    color: var(--white);
     text-shadow: 0 3px 8px #00000017;
     text-transform: capitalize
 }
@@ -88,7 +82,7 @@
 
 .header-eight .header-content p {
     margin-top: 30px;
-    color: var(--darker);
+    color: var(--white);
     opacity: .7
 }
 
@@ -98,15 +92,15 @@
 
 .header-eight .primary-btn {
     margin-right: 12px;
-    background-color: var(--primary);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--primary);
     border: 1px solid transparent
 }
 
 .header-eight .primary-btn:hover {
     background-color: transparent;
-    color: var(--primary);
-    border-color: var(--primary)
+    color: var(--white);
+    border-color: var(--white)
 }
 
 .header-eight .video-button {
@@ -123,11 +117,11 @@
 .header-eight .video-button .text {
     display: inline-block;
     margin-left: 15px;
-    color: var(--darker);
+    color: var(--white);
     font-weight: 600
 }
 
 .header-eight .video-button .icon-btn {
-    background: var(--primary);
-    color: var(--white)
+    background: var(--white);
+    color: var(--primary)
 }

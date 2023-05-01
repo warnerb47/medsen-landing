@@ -1,7 +1,6 @@
 :root{
     --font-family: "Inter", sans-serif;
     --primary: #009344;
-    --primary-dark: #21323E;
     --primary-light: #e2f1ff;
     --accent: #00d4d7;
     --accent-dark: #00bac1;
@@ -22,6 +21,7 @@
     --error-dark: #bf1257;
     --error-light: #fce4eb;
     --black: #1d1d1d;
+    --darker: #21323E;
     --dark-1: #2d2d2d;
     --dark-2: #4d4d4d;
     --dark-3: #6d6d6d;

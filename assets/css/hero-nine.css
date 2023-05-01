@@ -1,0 +1,141 @@
+/* Header NINE */
+.header-nine .primary-btn {
+    background: var(--primary);
+    color: #21323E;
+    box-shadow: var(--shadow-2)
+}
+
+.header-nine .active.primary-btn,
+.header-nine .primary-btn:hover,
+.header-nine .primary-btn:focus {
+    background: var(--darker);
+    color: var(--white);
+    box-shadow: var(--shadow-4)
+}
+
+.header-nine .deactive.primary-btn {
+    background: var(--gray-4);
+    color: var(--dark-3);
+    pointer-events: none
+}
+
+.header-nine {
+    position: relative;
+    padding: 160px 0 100px;
+     background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url(assets/images/header/hero-image.png);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .header-nine {
+        padding: 130px 0 80px
+    }
+}
+
+@media(max-width:767px) {
+    .header-nine {
+        padding: 100px 0 60px
+    }
+}
+
+.header-nine .header-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 38vw;
+}
+
+.header-nine .header-image img {
+    width: 100%;
+}
+
+@media only screen and (min-width:768px) and (max-width:991px),
+(max-width:767px) {
+    .header-nine .header-image {
+        margin-top: 40px
+    }
+}
+
+.header-nine .header-content {
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    /* background: var(--gradient-2); */
+}
+
+.header-nine .header-content h1 {
+    font-weight: 700;
+    color: #21323E;
+    /* text-shadow: 0 3px 8px #00000017; */
+    text-transform: capitalize
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .header-nine .header-content h1 {
+        font-size: 35px;
+        line-height: 45px
+    }
+}
+
+@media(max-width:767px) {
+    .header-nine .header-content h1 {
+        font-size: 30px;
+        line-height: 42px
+    }
+}
+
+.header-nine .header-content h1 span {
+    display: block
+}
+
+.header-nine .header-content p {
+    margin-top: 30px;
+    color: #21323E;
+    opacity: .7
+}
+
+.header-nine .button {
+    margin-top: 40px
+}
+
+.header-nine .primary-btn {
+    margin-right: 12px;
+    background-color: var(--white);
+    color: var(--primary);
+    border: 1px solid transparent
+}
+
+.header-nine .primary-btn:hover {
+    background-color: transparent;
+    color: var(--white);
+    border-color: var(--white)
+}
+
+.header-nine .video-button {
+    display: inline-flex;
+    align-items: center
+}
+
+@media(max-width:767px) {
+    .header-nine .video-button {
+        margin-top: 20px
+    }
+}
+
+.header-nine .video-button .text {
+    display: inline-block;
+    margin-left: 15px;
+    color: #21323E;
+    font-weight: 600
+}
+
+.header-nine .video-button .icon-btn {
+    background: var(--white);
+    color: var(--primary)
+}
+/* HEADER NINE  */
