@@ -433,12 +433,12 @@ only screen and (min-width:1400px) {
     font-size: 22px;
     position: relative;
     overflow: hidden;
-    color: var(--darker);
+    color: var(--white);
     height: 40px;
     width: 40px;
     line-height: 40px;
     text-align: center;
-    border: 1px solid var(--darker);
+    border: 1px solid var(--white);
     opacity: 0.5;
     border-radius: 50%;
     -webkit-transition: all .3s ease-out 0s;
@@ -448,15 +448,22 @@ only screen and (min-width:1400px) {
     transition: all .3s ease-out 0s
 }
 
+.navbar-area.navbar-nine.top .navbar .navbar-btn .menu-bar {
+    color: var(--darker);
+    border: 1px solid var(--darker);
+}
+
 .navbar-area.navbar-nine .navbar .navbar-btn .menu-bar:hover {
+    border-color: transparent;
+    color: var(--primary);
+    opacity: 1;
+    background-color: var(--white)
+}
+
+.navbar-area.navbar-nine.top .navbar .navbar-btn .menu-bar:hover {
     border-color: transparent;
     color: var(--white);
     opacity: 1;
     background-color: var(--primary)
 }
 
-.navbar-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
