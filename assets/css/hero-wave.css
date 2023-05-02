@@ -107,8 +107,28 @@
 
 .header-eight .video-button {
     display: inline-flex;
-    align-items: center
+    align-items: center;
 }
+
+.header-eight .play_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    position: absolute;
+    bottom: 25%;
+    right: 37%;
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    animation: breath 3s linear infinite;
+}
+
+.header-eight .play_btn img {
+    width: 20px;
+}
+
+  
 
 @media(max-width:767px) {
     .header-eight .video-button {
@@ -126,4 +146,10 @@
 .header-eight .video-button .icon-btn {
     background: var(--primary);
     color: var(--white)
+}
+
+@keyframes breath {
+    0% {
+        box-shadow: 0 0 0 15px var(--primary);
+    }
 }
