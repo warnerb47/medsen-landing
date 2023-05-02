@@ -20,8 +20,9 @@
 
 .header-eight {
     position: relative;
-    padding: 160px 0 100px;
-    background: var(--gradient-1)
+    padding: 160px 0 0;
+    background: var(--gradient-1);
+    overflow-x: clip;
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -45,6 +46,7 @@
     width: 50vw;
     height: 100vh;
     padding: 0;
+    z-index: 0;
 }
 .header-wave img {
     width: 100%;
@@ -53,15 +55,11 @@
 
 .header-eight .header-content {
     border-radius: 0;
-    position: relative;
-    z-index: 1;
     text-align: left
 }
 
 .header-eight .header-image {
     border-radius: 0;
-    position: relative;
-    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -70,12 +68,29 @@
 .header-eight .header-image img{
     height: 50vh;
     margin-right: 100px;
+    margin-bottom: 20px;
 }
 
 .header-eight .header-content h1 {
     font-weight: 700;
     color: var(--darker);
     text-shadow: 0 3px 8px #00000017;
+}
+
+.hero-slider {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 700%;
+    animation: slide 10s infinite;
+}
+
+.hero-slider .hero-slide {
+    padding-left: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -165,5 +180,20 @@
 @keyframes breath {
     0% {
         box-shadow: 0 0 0 15px var(--primary);
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(-100vw);
     }
 }
