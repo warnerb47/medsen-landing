@@ -20,7 +20,7 @@
 
 .header-eight {
     position: relative;
-    padding: 160px 0 0;
+    padding: 130px 0 0;
     background: var(--gradient-1);
     overflow-x: clip;
 }
@@ -83,7 +83,7 @@
     justify-content: flex-start;
     flex-direction: row;
     width: 700%;
-    animation: slide 10s infinite;
+    animation: slide 15s infinite;
 }
 
 .hero-slider .hero-slide {
@@ -190,10 +190,22 @@
     25% {
         transform: translateX(0);
     }
+    30% {
+        transform: translateX(-100vw);
+    }
     50% {
         transform: translateX(-100vw);
     }
+    55% {
+        transform: translateX(-200vw);
+    }
+    75% {
+        transform: translateX(-200vw);
+    }
+    80% {
+        transform: translateX(-300vw);
+    }
     100% {
-        transform: translateX(-100vw);
+        transform: translateX(-300vw);
     }
 }
