@@ -36,7 +36,7 @@
     }
 }
 
-.header-image {
+.header-wave {
     position: absolute;
     top: 0;
     right: 0;
@@ -46,7 +46,7 @@
     height: 100vh;
     padding: 0;
 }
-.header-image img {
+.header-wave img {
     width: 100%;
 }
 
