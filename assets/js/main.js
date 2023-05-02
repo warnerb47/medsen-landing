@@ -41,12 +41,12 @@ window.onscroll =  () => {
       });
   
       // ===== navbar nine sideMenu
-      let sideMenuLeftNine = document.querySelector(".navbar-nine .menu-bar");
+    //   let sideMenuLeftNine = document.querySelector(".navbar-nine .menu-bar");
   
-      sideMenuLeftNine.addEventListener("click", function () {
-        sidebarLeft.classList.add("open");
-        overlayLeft.classList.add("open");
-      });
+    //   sideMenuLeftNine.addEventListener("click", function () {
+    //     sidebarLeft.classList.add("open");
+    //     overlayLeft.classList.add("open");
+    //   });
   
       //========= glightbox
       GLightbox({
