@@ -58,6 +58,20 @@
     text-align: left
 }
 
+.header-eight .header-image {
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-eight .header-image img{
+    height: 50vh;
+    margin-right: 100px;
+}
+
 .header-eight .header-content h1 {
     font-weight: 700;
     color: var(--darker);
