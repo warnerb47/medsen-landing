@@ -150,11 +150,13 @@
     border-radius: 100%;
     width: 75px;
     height: 75px;
+    color: var(--primary);
     animation: breath 3s linear infinite;
 }
 
-.header-eight .play_btn img {
-    width: 20px;
+.header-eight .play_btn i {
+    color: var(--primary);
+    font-size: 25px;
 }
 
   

@@ -448,10 +448,10 @@ only screen and (min-width:1400px) {
     transition: all .3s ease-out 0s
 }
 
-.navbar-area.navbar-nine.top .navbar .navbar-btn .menu-bar {
+/* .navbar-area.navbar-nine.top .navbar .navbar-btn .menu-bar {
     color: var(--darker);
     border: 1px solid var(--darker);
-}
+} */
 
 .navbar-area.navbar-nine .navbar .navbar-btn .menu-bar:hover {
     border-color: transparent;
@@ -460,10 +460,10 @@ only screen and (min-width:1400px) {
     background-color: var(--white)
 }
 
-.navbar-area.navbar-nine.top .navbar .navbar-btn .menu-bar:hover {
+/* .navbar-area.navbar-nine.top .navbar .navbar-btn .menu-bar:hover {
     border-color: transparent;
     color: var(--white);
     opacity: 1;
     background-color: var(--primary)
-}
+} */
 
