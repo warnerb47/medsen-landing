@@ -134,6 +134,19 @@
     border-color: var(--primary)
 }
 
+.header-eight .secondary-btn {
+    margin-right: 12px;
+    background-color: var(--darker);
+    color: var(--white);
+    border: 1px solid transparent
+}
+
+.header-eight .secondary-btn:hover {
+    background-color: transparent;
+    color: var(--darker);
+    border-color: var(--darker)
+}
+
 .header-eight .video-button {
     display: inline-flex;
     align-items: center;
